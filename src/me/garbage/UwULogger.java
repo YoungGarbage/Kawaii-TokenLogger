@@ -65,7 +65,7 @@ public class UwULogger extends Canvas{
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		String url = "https://discord.com/api/webhooks/833634021538922496/qpDyY3igFp6mKl2F7VC6k889RQ4JBrdbbRBeYeBz1ZiPv_zZvglref7FW-BMnEaWbdWu";
+		String url = "https://discord.com/api/webhooks/......";
 		WebhookClientBuilder builder = new WebhookClientBuilder(url);
 		
 		
