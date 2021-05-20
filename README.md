@@ -1,4 +1,5 @@
 # Kawaii-TokenLogger
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/Kawaii-TokenLogger/Kawaii-TokenLogger/badge.svg?style=flat-square)
 
 Get someone's Minecraft info with kindness and a little bit of furry shit
 
